@@ -1,3 +1,4 @@
 #!/bin/sh
 echo "Building & Running Libelium"
-docker build .
+docker build -t libelium .
+docker run -ti libelium bash
