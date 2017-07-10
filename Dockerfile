@@ -1,6 +1,6 @@
-FROM resin/rpi-raspbian:latest
+FROM resin/rpi-raspbian
 RUN apt-get update
-RUN apt-get UPGRADE
+RUN apt-get upgrade
 RUN apt-get install -y git
 
 RUN mkdir -p /home/install/libelium
